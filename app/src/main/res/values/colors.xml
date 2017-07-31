@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_color">#212121</color>
+    <color name="primary_dark_color">#212121</color>
+    <color name="albums">#F44336</color>
+    <color name="playlist">#9C27B0</color>
+    <color name="songs">#2196F3</color>
+    <color name="artists">#4CAF50</color>
+    <color name="nowPlaying">#424242</color>
+    <color name="onlineBuy">#FFEB3B</color>
+    <color name="search">#424242</color>
+    <color name="background">#000000</color>
+</resources>

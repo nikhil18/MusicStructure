@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.example.android.musicstructure.MainActivity">
+
+    <TextView
+        style="@style/NowPlaying"
+        android:id="@+id/Search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/nowPlaying"
+        android:text="@string/search" />
+
+    <LinearLayout
+    style="@style/LayoutStyle">
+        <TextView
+            android:id="@+id/Songs"
+            style="@style/CategoryStyle"
+            android:background="@color/artists"
+            android:text="@string/category_Songs" />
+
+        <TextView
+            android:id="@+id/Albums"
+            style="@style/CategoryStyle"
+            android:background="@color/albums"
+            android:text="@string/category_Albums" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/LayoutStyle">
+        <TextView
+            android:id="@+id/Artists"
+            style="@style/CategoryStyle"
+            android:background="@color/songs"
+            android:text="@string/category_Artists"
+            android:layout_width="44dp" />
+
+        <TextView
+            android:id="@+id/Playlist"
+            style="@style/CategoryStyle"
+            android:background="@color/playlist"
+            android:text="@string/category_Playlists"
+            android:layout_width="56dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/buyOnline"
+        style="@style/BuyStyle"
+        android:background="@color/onlineBuy"
+        android:text="@string/buyOnline" />
+
+    <TextView
+        style="@style/NowPlaying"
+        android:id="@+id/nowPlaying"
+        android:background="@color/nowPlaying"
+        android:text="@string/now_playing" />
+
+</LinearLayout>

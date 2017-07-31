@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicstructure.BuyOnline">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <TextView
+            style="@style/NowPlaying"
+            android:text="@string/buyonline"
+            android:background="@color/nowPlaying"/>
+    </ScrollView>
+
+
+    <TextView
+        style="@style/NowPlaying"
+        android:id="@+id/CheckOut"
+        android:background="@color/nowPlaying"
+        android:text="@string/checkout" />
+</LinearLayout>

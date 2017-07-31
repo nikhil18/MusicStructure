@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/gotoalbum"
+        android:title="@string/category_Albums" />
+    <item
+        android:id="@+id/addtoplaylist"
+        android:title="@string/category_Playlists" />
+    <item
+        android:id="@+id/gotoartist"
+        android:title="@string/category_Artists" />
+    <item
+        android:id="@+id/gotosearch"
+        android:title="@string/search" />
+</menu>

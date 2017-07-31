@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Music Structure</string>
+    <string name="category_Playlists">Playlists</string>
+    <string name="category_Songs">Songs</string>
+    <string name="category_Artists">Artists</string>
+    <string name="category_Albums">Albums</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="buyOnline">Buy Online</string>
+    <string name="search">Search</string>
+    <string name="songName">Name of The Song Being Played</string>
+    <string name="listofalbums">this section groups songs according to their albums</string>
+    <string name="listofsongs">this section shows all the songs present on the device</string>
+    <string name="searchbutton">touch the search button to search for artists,albums and songs on this device</string>
+    <string name="listofartists">this section groups songs according to their artists</string>
+    <string name="playlists">this section groups songs according to the songs added to playlist by the users</string>
+    <string name="buyonline">in this section customers can buy music from google play music i will use an unofficial google play music api </string>
+    <string name="checkout">checkout</string>
+</resources>
