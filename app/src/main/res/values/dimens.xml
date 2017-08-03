@@ -4,4 +4,6 @@
     <dimen name="item_padding">8dp</dimen>
     <dimen name="buy_margin">16dp</dimen>
     <dimen name="nowPlayingHeight">45dp</dimen>
+    <dimen name="nowPlayingExplain">205dp</dimen>
+    <dimen name="mainExplain">60dp</dimen>
 </resources>

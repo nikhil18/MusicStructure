@@ -1,9 +1,8 @@
 package com.example.android.musicstructure;
 
-import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -27,23 +26,23 @@ public class NowPlayingActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(final MenuItem item) {
 
         switch (item.getItemId()) {
-            case R.id.gotosongs:
+            case R.id.go_to_songs:
                 Intent songsIntent = new Intent(NowPlayingActivity.this, SongsActivity.class);
                 startActivity(songsIntent);
                 return true;
-            case R.id.gotoalbum:
+            case R.id.go_to_album:
                 Intent albumsIntent = new Intent(NowPlayingActivity.this, AlbumsActivity.class);
                 startActivity(albumsIntent);
                 return true;
-            case R.id.addtoplaylist:
+            case R.id.add_to_playlist:
                 Intent playlistIntent = new Intent(NowPlayingActivity.this, PlaylistActivity.class);
                 startActivity(playlistIntent);
                 return true;
-            case R.id.gotoartist:
+            case R.id.go_to_artist:
                 Intent artistIntent = new Intent(NowPlayingActivity.this, ArtistsActivity.class);
                 startActivity(artistIntent);
                 return true;
-            case R.id.gotosearch:
+            case R.id.go_to_search:
                 Intent searchIntent = new Intent(NowPlayingActivity.this, SearchActivity.class);
                 startActivity(searchIntent);
                 return true;

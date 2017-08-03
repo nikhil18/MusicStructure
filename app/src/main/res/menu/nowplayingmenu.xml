@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
-        android:id="@+id/gotosongs"
+        android:id="@+id/go_to_songs"
         android:title="@string/category_Songs" />
     <item
-        android:id="@+id/gotoalbum"
+        android:id="@+id/go_to_album"
         android:title="@string/category_Albums" />
     <item
-        android:id="@+id/addtoplaylist"
+        android:id="@+id/add_to_playlist"
         android:title="@string/category_Playlists" />
     <item
-        android:id="@+id/gotoartist"
+        android:id="@+id/go_to_artist"
         android:title="@string/category_Artists" />
     <item
-        android:id="@+id/gotosearch"
+        android:id="@+id/go_to_search"
         android:title="@string/search" />
 </menu>

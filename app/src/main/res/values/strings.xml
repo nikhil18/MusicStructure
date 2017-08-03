@@ -7,12 +7,14 @@
     <string name="now_playing">Now Playing</string>
     <string name="buyOnline">Buy Online</string>
     <string name="search">Search</string>
-    <string name="songName">Name of The Song Being Played</string>
-    <string name="listofalbums">this section groups songs according to their albums</string>
-    <string name="listofsongs">this section shows all the songs present on the device</string>
-    <string name="searchbutton">touch the search button to search for artists,albums and songs on this device</string>
-    <string name="listofartists">this section groups songs according to their artists</string>
-    <string name="playlists">this section groups songs according to the songs added to playlist by the users</string>
-    <string name="buyonline">in this section customers can buy music from google play music i will use an unofficial google play music api </string>
-    <string name="checkout">checkout</string>
+    <string name="mainexplain">a simple music player where you can play and buy music online</string>
+    <string name="songName">NOW PLAYING \nName of The Song Being Played user can use play button to play a song and,tap on the pause button again to pause a song,seekbar to skip parts of the song
+    MediaPlayer class plays the music and mediaPlayer.play(); is the method to call to play music,mediaPlayer.pause(); to pause music</string>
+    <string name="listofalbums">LIST OF ALBUMS \nthis section groups songs according to their albums and i will be using grid view to show all the albums</string>
+    <string name="listofsongs">LIST OF SONGS \nthis section shows all the songs present on the device and i will be using list view to show all the music</string>
+    <string name="searchbutton">SEARCH \ntouch the search button to search for artists,albums and songs on this device i will be using list view to show all the search results</string>
+    <string name="listofartists">LIST OF ARTISTS \nthis section groups songs according to their artists i will be using list view to show all the artists </string>
+    <string name="playlists">LISTS OF PLAYLISTS \nthis section groups songs according to the songs added to playlist by the users i will be using list view to show all the playlists</string>
+    <string name="buyonline">BUY MUSIC ONLINE \nin this section customers can buy music from google play store i will add an intent which will open playstore music section by using this link
+    https://play.google.com/store/music </string>
 </resources>

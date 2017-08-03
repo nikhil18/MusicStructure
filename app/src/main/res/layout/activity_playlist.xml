@@ -19,7 +19,7 @@
 
     <TextView
         style="@style/NowPlaying"
-        android:id="@+id/nowPlaying"
+        android:id="@+id/nowPlayingTextview"
         android:background="@color/nowPlaying"
         android:text="@string/now_playing" />
 </LinearLayout>

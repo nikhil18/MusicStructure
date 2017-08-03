@@ -15,7 +15,7 @@ public class ArtistsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_artists);
-        TextView playing = (TextView) findViewById(R.id.nowPlaying);
+        TextView playing = (TextView) findViewById(R.id.nowPlayingTextview);
 
         playing.setOnClickListener(new View.OnClickListener() {
         @Override
@@ -37,19 +37,19 @@ public class ArtistsActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(final MenuItem item) {
 
         switch (item.getItemId()) {
-            case R.id.gotosongs:
+            case R.id.go_to_songs:
                 Intent songsIntent = new Intent(ArtistsActivity.this, SongsActivity.class);
                 startActivity(songsIntent);
                 return true;
-            case R.id.gotoalbum:
+            case R.id.go_to_album:
                 Intent albumsIntent = new Intent(ArtistsActivity.this, AlbumsActivity.class);
                 startActivity(albumsIntent);
                 return true;
-            case R.id.addtoplaylist:
+            case R.id.add_to_playlist:
                 Intent playlistIntent = new Intent(ArtistsActivity.this, PlaylistActivity.class);
                 startActivity(playlistIntent);
                 return true;
-            case R.id.gotosearch:
+            case R.id.go_to_search:
                 Intent searchIntent = new Intent(ArtistsActivity.this, SearchActivity.class);
                 startActivity(searchIntent);
                 return true;

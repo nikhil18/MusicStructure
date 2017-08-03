@@ -9,7 +9,13 @@
 
     <TextView
         style="@style/NowPlaying"
-        android:id="@+id/Search"
+        android:text="@string/mainexplain"
+        android:layout_height="@dimen/mainExplain"
+        android:background="@color/nowPlaying"/>
+
+    <TextView
+        style="@style/NowPlaying"
+        android:id="@+id/search_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="@color/nowPlaying"
@@ -18,13 +24,13 @@
     <LinearLayout
     style="@style/LayoutStyle">
         <TextView
-            android:id="@+id/Songs"
+            android:id="@+id/songs_textview"
             style="@style/CategoryStyle"
             android:background="@color/artists"
             android:text="@string/category_Songs" />
 
         <TextView
-            android:id="@+id/Albums"
+            android:id="@+id/albums_textview"
             style="@style/CategoryStyle"
             android:background="@color/albums"
             android:text="@string/category_Albums" />
@@ -33,14 +39,14 @@
     <LinearLayout
         style="@style/LayoutStyle">
         <TextView
-            android:id="@+id/Artists"
+            android:id="@+id/artists_textview"
             style="@style/CategoryStyle"
             android:background="@color/songs"
             android:text="@string/category_Artists"
             android:layout_width="44dp" />
 
         <TextView
-            android:id="@+id/Playlist"
+            android:id="@+id/playlist_textview"
             style="@style/CategoryStyle"
             android:background="@color/playlist"
             android:text="@string/category_Playlists"
@@ -55,7 +61,7 @@
 
     <TextView
         style="@style/NowPlaying"
-        android:id="@+id/nowPlaying"
+        android:id="@+id/nowPlayingTextview"
         android:background="@color/nowPlaying"
         android:text="@string/now_playing" />
 

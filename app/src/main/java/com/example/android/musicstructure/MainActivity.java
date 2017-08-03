@@ -13,12 +13,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        TextView albums = (TextView) findViewById(R.id.Albums);
-        TextView songs = (TextView) findViewById(R.id.Songs);
-        TextView artists = (TextView) findViewById(R.id.Artists);
-        TextView playlist = (TextView) findViewById(R.id.Playlist);
-        TextView search = (TextView) findViewById(R.id.Search);
-        TextView playing = (TextView) findViewById(R.id.nowPlaying);
+        TextView albums = (TextView) findViewById(R.id.albums_textview);
+        TextView songs = (TextView) findViewById(R.id.songs_textview);
+        TextView artists = (TextView) findViewById(R.id.artists_textview);
+        TextView playlist = (TextView) findViewById(R.id.playlist_textview);
+        TextView search = (TextView) findViewById(R.id.search_textview);
+        TextView playing = (TextView) findViewById(R.id.nowPlayingTextview);
         TextView buyonline = (TextView) findViewById(R.id.buyOnline);
 
         albums.setOnClickListener(new View.OnClickListener() {
