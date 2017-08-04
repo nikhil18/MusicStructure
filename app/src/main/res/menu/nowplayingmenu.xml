@@ -15,4 +15,7 @@
     <item
         android:id="@+id/go_to_search"
         android:title="@string/search" />
+    <item
+        android:id="@+id/got_to_buy_online"
+        android:title="@string/buyOnline" />
 </menu>

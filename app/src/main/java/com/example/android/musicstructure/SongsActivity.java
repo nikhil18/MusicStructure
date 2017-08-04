@@ -54,6 +54,9 @@ public class SongsActivity extends AppCompatActivity {
                 Intent searchIntent = new Intent(SongsActivity.this, SearchActivity.class);
                 startActivity(searchIntent);
                 return true;
+            case R.id.got_to_buy_online:
+                Intent buyonlineIntent = new Intent(SongsActivity.this, BuyOnline.class);
+                startActivity(buyonlineIntent);
             default:
                 return super.onOptionsItemSelected(item);
         }

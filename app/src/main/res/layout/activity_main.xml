@@ -42,15 +42,13 @@
             android:id="@+id/artists_textview"
             style="@style/CategoryStyle"
             android:background="@color/songs"
-            android:text="@string/category_Artists"
-            android:layout_width="44dp" />
+            android:text="@string/category_Artists" />
 
         <TextView
             android:id="@+id/playlist_textview"
             style="@style/CategoryStyle"
             android:background="@color/playlist"
-            android:text="@string/category_Playlists"
-            android:layout_width="56dp" />
+            android:text="@string/category_Playlists"/>
     </LinearLayout>
 
     <TextView
